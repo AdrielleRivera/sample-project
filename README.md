@@ -1,90 +1,20 @@
-# 🚀 Project Name
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Short description of what this project does and why it exists.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 📌 Features
+View your app in AI Studio: https://ai.studio/apps/abf776eb-005b-40c5-a784-8bc89fbc325c
 
-- Feature 1
-- Feature 2
-- Feature 3
+## Run Locally
 
----
+**Prerequisites:**  Node.js
 
-## 🛠️ Tech Stack
 
-- Language: (e.g., Python, JavaScript)
-- Framework: (e.g., React, Flask)
-- Tools: (e.g., Git, Docker)
-
----
-
-## 📂 Project Structure
-
-```
-project-name/
-├── src/
-├── tests/
-├── docs/
-├── assets/
-└── README.md
-```
-
----
-
-## ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/project-name.git
-
-# Go to the project folder
-cd project-name
-
-# Install dependencies
-npm install   # or pip install -r requirements.txt
-```
-
----
-
-## ▶️ Usage
-
-```bash
-# Run the project
-npm start
-# or
-python main.py
-```
-
----
-
-## 🧪 Running Tests
-
-```bash
-npm test
-# or
-pytest
-```
-
----
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes
-4. Push to your branch
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 🙌 Acknowledgements
-
-- Any libraries, tutorials, or inspirations you used
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
